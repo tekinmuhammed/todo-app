@@ -33,7 +33,7 @@ create a pull request. You can also simply open an issue with the tag
   </p>
   
   <br>
-Made with :heart: by <a href="https://github.com/Aklilu-Mandefro" target="_blank">Aklilu Mandefro</a>
+Made with :heart: by <a href="https://github.com/tekinmuhammed" target="_blank">Muhammed Tekin</a>
 
 ## Please give this repo a ⭐ if you found it helpful.
 
