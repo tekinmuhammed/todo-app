@@ -1,0 +1,128 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #f3f4f6;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  background-color: #ffffff;
+  width: 350px;
+  height: 550px;
+  border: 5px solid #5e72e4; /* Adjusted border color */
+  border-radius: 12px;
+  padding: 20px;
+  overflow-y: scroll;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.app::-webkit-scrollbar {
+  width: 8px;
+}
+
+.app::-webkit-scrollbar-thumb {
+  background-color: #5e72e4; /* Adjusted scrollbar color */
+  border-radius: 8px;
+}
+
+#addNew {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(94, 114, 228, 0.8); /* Adjusted background color */
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#addNew:hover {
+  background-color: #6c757d; /* Adjusted hover color */
+}
+
+.fa-plus {
+  background-color: #5e72e4; /* Adjusted button color */
+  padding: 5px;
+  border-radius: 50%;
+  color: #ffffff;
+}
+
+#tasks div {
+  border: 3px solid #5e72e4; /* Adjusted task border color */
+  background-color: #d1d8e0; /* Adjusted task background color */
+  border-radius: 10px;
+  padding: 10px;
+  display: grid;
+  gap: 6px;
+  transition: transform 0.3s ease-in-out;
+}
+
+#tasks div:hover {
+  transform: scale(1.02);
+}
+
+#tasks div .options i {
+  cursor: pointer;
+  color: #5e72e4; /* Adjusted options color */
+  transition: color 0.3s ease-in-out;
+}
+
+#tasks div .options i:hover {
+  color: #6c757d; /* Adjusted options hover color */
+}
+
+#msg {
+  color: #ff5252;
+}
+
+.todo-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #343a40; /* Adjusted footer background color */
+  color: white;
+  font-family: 'Poppins', Arial, sans-serif;
+  height: 70px;
+  padding-top: 20px;
+  text-align: center;
+  box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.2);
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #5e72e4; /* Adjusted link hover color */
+}
+
+/* Search Bar Styles */
+.input-group {
+  margin-bottom: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+#searchInput {
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+#searchButton {
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+#searchButton:hover {
+  background-color: #5e72e4; /* Adjusted search button hover color */
+  border-color: #5e72e4;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
